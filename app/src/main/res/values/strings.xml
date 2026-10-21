@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">Mis Fotos</string>
+
+    <!-- Autenticación -->
+    <string name="login_title">Iniciar sesión</string>
+    <string name="login_subtitle">Accede con tu correo y contraseña</string>
+    <string name="email_hint">Correo electrónico</string>
+    <string name="password_hint">Contraseña</string>
+    <string name="login_button">Iniciar sesión</string>
+    <string name="register_button">Crear cuenta</string>
+    <string name="no_account_prompt">¿No tienes cuenta? Regístrate</string>
+
+    <string name="register_title">Crear cuenta</string>
+    <string name="register_subtitle">Completa tus datos para empezar</string>
+    <string name="first_name_hint">Nombre</string>
+    <string name="last_name_hint">Apellidos</string>
+    <string name="confirm_password_hint">Confirmar contraseña</string>
+    <string name="register_button_full">Registrarme</string>
+    <string name="already_have_account">¿Ya tienes cuenta? Inicia sesión</string>
+
+    <!-- Errores -->
+    <string name="error_email_invalid">Introduce un correo electrónico válido</string>
+    <string name="error_password_empty">La contraseña es obligatoria</string>
+    <string name="error_password_short">La contraseña debe tener al menos 6 caracteres</string>
+    <string name="error_passwords_dont_match">Las contraseñas no coinciden</string>
+    <string name="error_email_exists">El correo ya está registrado</string>
+    <string name="error_invalid_credentials">Correo o contraseña incorrectos</string>
+    <string name="error_generic">Ocurrió un error inesperado. Inténtalo de nuevo</string>
+    <string name="error_name_empty">El nombre es obligatorio</string>
+    <string name="error_lastname_empty">Los apellidos son obligatorios</string>
+    <string name="error_database">No se pudo acceder a la base de datos</string>
+
+    <!-- Pantalla principal -->
+    <string name="main_title">Mis fotos</string>
+    <string name="btn_take_photo">Tomar foto</string>
+    <string name="btn_view_photos">Ver fotos</string>
+    <string name="last_photo_title">Última foto</string>
+    <string name="no_photos_yet">Aún no has tomado ninguna foto</string>
+    <plurals name="photo_count">
+        <item quantity="one">%1$d foto</item>
+        <item quantity="other">%1$d fotos</item>
+    </plurals>
+    <string name="welcome_user">Hola, %1$s %2$s</string>
+    <string name="logout">Cerrar sesión</string>
+    <string name="logout_confirm_title">Cerrar sesión</string>
+    <string name="logout_confirm_message">¿Deseas cerrar la sesión actual?</string>
+    <string name="action_cancel">Cancelar</string>
+
+    <!-- Cámara -->
+    <string name="btn_capture">Capturar</string>
+    <string name="btn_switch_camera">Cambiar cámara</string>
+    <string name="location_waiting">Obteniendo ubicación GPS…</string>
+    <string name="location_unavailable">No se pudo obtener la ubicación GPS</string>
+    <string name="comment_title">Comentar foto</string>
+    <string name="comment_hint">Escribe un comentario</string>
+    <string name="action_save">Guardar</string>
+    <string name="action_discard">Descartar</string>
+    <string name="photo_saved">Foto guardada</string>
+    <string name="capture_error">No se pudo tomar la foto</string>
+    <string name="gps_registered">GPS: %1$s</string>
+
+    <!-- Permisos -->
+    <string name="permission_camera_required">Se necesita el permiso de la cámara para tomar fotos</string>
+    <string name="permission_location_required">Se necesita el permiso de ubicación para registrar la posición GPS</string>
+    <string name="permission_settings">Abrir ajustes</string>
+
+    <!-- Listado de fotos -->
+    <string name="photos_title">Ver fotos</string>
+    <string name="photos_empty">No hay fotos registradas</string>
+    <string name="photos_empty_hint">Toma una foto para verla aquí</string>
+
+    <!-- Detalle -->
+    <string name="detail_title">Detalle de la foto</string>
+    <string name="detail_comment_title">Comentario</string>
+    <string name="detail_gps_title">Ubicación GPS</string>
+    <string name="detail_date_title">Fecha</string>
+    <string name="detail_no_comment">Sin comentario</string>
+    <string name="detail_no_gps">Sin ubicación registrada</string>
+    <string name="gps_latitude">Latitud</string>
+    <string name="gps_longitude">Longitud</string>
+    <string name="gps_altitude">Altitud</string>
+    <string name="gps_accuracy">Precisión</string>
+    <string name="gps_coordinates_format">%1$.6f, %2$.6f</string>
+    <string name="gps_decimal_format">%1$.6f</string>
+    <string name="gps_accuracy_format">%1$.1f m</string>
+    <string name="gps_altitude_format">%1$.1f m</string>
+    <string name="btn_open_map">Ver en el mapa</string>
+    <string name="btn_delete">Eliminar foto</string>
+    <string name="delete_confirm_title">Eliminar foto</string>
+    <string name="delete_confirm_message">¿Seguro que deseas eliminar esta foto? Esta acción no se puede deshacer.</string>
+    <string name="action_delete">Eliminar</string>
+    <string name="no_map_app">No hay ninguna aplicación de mapas instalada</string>
+
+    <!-- Formato de fecha -->
+    <string name="date_format">dd/MM/yyyy HH:mm</string>
+
+    <!-- Contenido descriptivo -->
+    <string name="cd_photo">Fotografía</string>
+    <string name="cd_preview">Vista previa de la foto</string>
+    <string name="cd_thumbnail">Miniatura de la foto</string>
+</resources>

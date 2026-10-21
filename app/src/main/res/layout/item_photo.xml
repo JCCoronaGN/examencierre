@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="6dp"
+    android:clickable="true"
+    android:focusable="true"
+    app:cardCornerRadius="14dp"
+    app:cardElevation="0dp"
+    app:strokeColor="?attr/colorOutlineVariant"
+    app:strokeWidth="1dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageViewPhoto"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:contentDescription="@string/cd_thumbnail"
+            android:scaleType="centerCrop"
+            tools:src="@drawable/ic_photo_placeholder" />
+
+        <TextView
+            android:id="@+id/textViewComment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:paddingHorizontal="12dp"
+            android:paddingTop="10dp"
+            android:textAppearance="?attr/textAppearanceBodyMedium"
+            tools:text="Visita al mirador" />
+
+        <TextView
+            android:id="@+id/textViewCoordinates"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:paddingHorizontal="12dp"
+            android:paddingBottom="12dp"
+            android:paddingTop="2dp"
+            android:textAppearance="?attr/textAppearanceLabelSmall"
+            android:textColor="?attr/colorOnSurfaceVariant"
+            tools:text="40.416775, -3.703790" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

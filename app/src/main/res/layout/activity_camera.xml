@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.camera.view.PreviewView
+        android:id="@+id/previewView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:implementationMode="performance"
+        app:scaleType="fillCenter" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonClose"
+        style="@style/Widget.Material3.Button.IconButton.Filled.Tonal"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_gravity="top|start"
+        android:layout_margin="16dp"
+        android:contentDescription="@string/action_cancel"
+        app:icon="@drawable/ic_close"
+        app:iconPadding="0dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonSwitchCamera"
+        style="@style/Widget.Material3.Button.IconButton.Filled.Tonal"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_gravity="top|end"
+        android:layout_margin="16dp"
+        android:contentDescription="@string/btn_switch_camera"
+        app:icon="@drawable/ic_switch_camera"
+        app:iconPadding="0dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonCapture"
+        android:layout_width="76dp"
+        android:layout_height="76dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="32dp"
+        android:contentDescription="@string/btn_capture"
+        android:insetBottom="0dp"
+        android:insetTop="0dp"
+        app:cornerRadius="38dp"
+        app:icon="@drawable/ic_camera"
+        app:iconGravity="textStart"
+        app:iconPadding="0dp"
+        app:iconSize="30dp" />
+
+    <LinearLayout
+        android:id="@+id/progressOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/camera_overlay_scrim"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone"
+        tools:visibility="visible">
+
+        <com.google.android.material.progressindicator.CircularProgressIndicator
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            app:indicatorColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/progressText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/location_waiting"
+            android:textAppearance="?attr/textAppearanceBodyMedium"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</FrameLayout>
