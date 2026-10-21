@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Silueta 2x2 para iconos con tema (Android 13+) -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M26,22 H48 A4,4 0 0 1 52,26 V48 A4,4 0 0 1 48,52 H26 A4,4 0 0 1 22,48 V26 A4,4 0 0 1 26,22 Z" />
+
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M60,22 H82 A4,4 0 0 1 86,26 V48 A4,4 0 0 1 82,52 H60 A4,4 0 0 1 56,48 V26 A4,4 0 0 1 60,22 Z" />
+
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M26,56 H48 A4,4 0 0 1 52,60 V82 A4,4 0 0 1 48,86 H26 A4,4 0 0 1 22,82 V60 A4,4 0 0 1 26,56 Z" />
+
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M60,56 H82 A4,4 0 0 1 86,60 V82 A4,4 0 0 1 82,86 H60 A4,4 0 0 1 56,82 V60 A4,4 0 0 1 60,56 Z" />
+</vector>
